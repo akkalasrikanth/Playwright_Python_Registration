@@ -1,0 +1,14 @@
+{
+ "registration" :{
+
+  "name": "rahul",
+  "email": "rahul@example.com",
+  "password":"rahul@2021",
+  "gender": ["Male","Female"],
+  "country": ["India","USA","UK","Australia"]
+},
+"login" :{
+   "email": "rahul",
+    "password": "rahul@2021"
+}
+}
