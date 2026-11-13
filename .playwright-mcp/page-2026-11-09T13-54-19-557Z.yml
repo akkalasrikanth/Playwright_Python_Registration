@@ -1,0 +1,63 @@
+- generic [ref=f1e2]:
+  - navigation [ref=f1e644]:
+    - generic [ref=f1e646]:
+      - link [ref=f1e647] [cursor=pointer]:
+        - /url: /
+        - img "website logo" [ref=f1e648]
+      - list [ref=f1e649]:
+        - listitem [ref=f1e650]:
+          - link "Home" [ref=f1e651] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f1e652]:
+          - link "Products" [ref=f1e653] [cursor=pointer]:
+            - /url: /products
+        - listitem [ref=f1e654]:
+          - link "Cart 1" [ref=f1e709] [cursor=pointer]:
+            - /url: /cart
+            - text: Cart
+            - generic [ref=f1e710]: "1"
+      - button "Logout" [ref=f1e656] [cursor=pointer]
+  - generic [ref=f1e658]:
+    - generic [ref=f1e659]:
+      - img "product" [ref=f1e660]
+      - generic [ref=f1e661]:
+        - heading "Hair Dryer" [level=1] [ref=f1e662]
+        - paragraph [ref=f1e663]: Rs 760/-
+        - generic [ref=f1e664]:
+          - generic [ref=f1e665]:
+            - paragraph [ref=f1e666]: "3.9"
+            - img "star" [ref=f1e667]
+          - paragraph [ref=f1e668]: 5463 Reviews
+        - paragraph [ref=f1e669]: Cleverly designed, this compact hairdryer is easy to handle and lightweight. The ThermoProtect temperature setting provides the optimal hair drying rate while protecting your hair from overheating. An efficient hairdryer sets your hair dry in just a few seconds. It also comes with a rubber storage hook.
+        - generic [ref=f1e670]:
+          - paragraph [ref=f1e671]: "Available:"
+          - paragraph [ref=f1e672]: In Stock
+        - generic [ref=f1e673]:
+          - paragraph [ref=f1e674]: "Brand:"
+          - paragraph [ref=f1e675]: Phillips
+        - separator [ref=f1e676]
+        - generic [ref=f1e677]:
+          - button [ref=f1e678] [cursor=pointer]
+          - paragraph [ref=f1e682]: "1"
+          - button [ref=f1e683] [cursor=pointer]
+        - button "ADD TO CART" [active] [ref=f1e688] [cursor=pointer]
+    - heading "Similar Products" [level=1] [ref=f1e689]
+    - list [ref=f1e690]:
+      - listitem [ref=f1e691]:
+        - img "similar product Minifigures" [ref=f1e692]
+        - paragraph [ref=f1e693]: Minifigures
+        - paragraph [ref=f1e694]: by LEGO
+        - generic [ref=f1e695]:
+          - paragraph [ref=f1e696]: Rs 760/-
+          - generic [ref=f1e697]:
+            - paragraph [ref=f1e698]: "3.9"
+            - img "star" [ref=f1e699]
+      - listitem [ref=f1e700]:
+        - img "similar product Lightweight Tripod" [ref=f1e701]
+        - paragraph [ref=f1e702]: Lightweight Tripod
+        - paragraph [ref=f1e703]: by LEGO
+        - generic [ref=f1e704]:
+          - paragraph [ref=f1e705]: Rs 760/-
+          - generic [ref=f1e706]:
+            - paragraph [ref=f1e707]: "3.9"
+            - img "star" [ref=f1e708]

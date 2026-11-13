@@ -1,0 +1,23 @@
+- generic [ref=e2]:
+  - navigation [ref=e2645]:
+    - generic [ref=e2647]:
+      - link [ref=e2648] [cursor=pointer]:
+        - /url: /
+        - img "website logo" [ref=e2649]
+      - list [ref=e2650]:
+        - listitem [ref=e2651]:
+          - link "Home" [ref=e2652] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e2653]:
+          - link "Products" [ref=e2654] [cursor=pointer]:
+            - /url: /products
+        - listitem [ref=e2655]:
+          - link "Cart" [ref=e2656] [cursor=pointer]:
+            - /url: /cart
+      - button "Logout" [ref=e2657] [cursor=pointer]
+  - generic [ref=e2659]:
+    - img "cart empty" [ref=e2660]
+    - heading "Your Cart Is Empty" [level=1] [ref=e2661]
+    - link [ref=e2662] [cursor=pointer]:
+      - /url: /products
+      - button "Shop Now" [ref=e2663]

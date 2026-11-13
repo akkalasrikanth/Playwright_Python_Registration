@@ -1,0 +1,39 @@
+- generic [ref=f1e2]:
+  - navigation [ref=f1e711]:
+    - generic [ref=f1e713]:
+      - link [ref=f1e714] [cursor=pointer]:
+        - /url: /
+        - img "website logo" [ref=f1e715]
+      - list [ref=f1e716]:
+        - listitem [ref=f1e717]:
+          - link "Home" [ref=f1e718] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f1e719]:
+          - link "Products" [ref=f1e720] [cursor=pointer]:
+            - /url: /products
+        - listitem [ref=f1e721]:
+          - link "Cart 1" [ref=f1e722] [cursor=pointer]:
+            - /url: /cart
+            - text: Cart
+            - generic [ref=f1e723]: "1"
+      - button "Logout" [ref=f1e724] [cursor=pointer]
+  - generic [ref=f1e726]:
+    - heading "My Cart" [level=1] [ref=f1e727]
+    - button "Remove All" [ref=f1e728] [cursor=pointer]
+    - list [ref=f1e729]:
+      - listitem [ref=f1e730]:
+        - img "Hair Dryer" [ref=f1e731]
+        - generic [ref=f1e732]:
+          - generic [ref=f1e733]:
+            - paragraph [ref=f1e734]: Hair Dryer
+            - paragraph [ref=f1e735]: by Phillips
+          - generic [ref=f1e736]:
+            - button [ref=f1e737] [cursor=pointer]
+            - paragraph [ref=f1e741]: "1"
+            - button [ref=f1e742] [cursor=pointer]
+          - paragraph [ref=f1e748]: Rs 760/-
+        - button [ref=f1e749] [cursor=pointer]
+    - generic [ref=f1e752]:
+      - 'heading "Order Total: Rs 760/-" [level=1] [ref=f1e753]'
+      - paragraph [ref=f1e754]: 1 Items in cart
+      - button "Checkout" [ref=f1e755] [cursor=pointer]

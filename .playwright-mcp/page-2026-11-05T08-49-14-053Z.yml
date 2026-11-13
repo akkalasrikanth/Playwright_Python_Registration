@@ -1,0 +1,41 @@
+- generic [ref=e2]:
+  - img "Logo" [ref=e4]
+  - generic [ref=e5]:
+    - img "Registration Site Image" [ref=e6]
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]: Name
+        - textbox "Enter your name" [ref=e10]
+      - generic [ref=e11]:
+        - generic [ref=e12]: Email
+        - textbox "Enter your email" [ref=e13]
+      - generic [ref=e14]:
+        - generic [ref=e15]: Password
+        - textbox "Enter your password" [ref=e16]
+      - generic [ref=e17]:
+        - generic [ref=e18]: Gender
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - radio "Male" [ref=e21]
+            - generic [ref=e22]: Male
+          - generic [ref=e23]:
+            - radio "Female" [ref=e24]
+            - generic [ref=e25]: Female
+      - generic [ref=e26]:
+        - generic [ref=e27]: Country
+        - combobox "Country" [ref=e28]:
+          - option "Select Country" [selected]
+          - option "India"
+          - option "USA"
+          - option "UK"
+          - option "Australia"
+          - option "Japan"
+          - option "Russia"
+      - generic [ref=e30]:
+        - checkbox "I agree to the Terms & Conditions" [ref=e31]
+        - generic [ref=e32]: I agree to the Terms & Conditions
+      - button "Register" [ref=e33] [cursor=pointer]
+      - paragraph [ref=e34]:
+        - text: Already have an account?
+        - link "Log in" [ref=e35] [cursor=pointer]:
+          - /url: https://rahulnxttrendz.ccbp.tech/login

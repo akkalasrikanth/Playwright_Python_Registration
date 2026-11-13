@@ -1,0 +1,14 @@
+
+{
+  "servers": {
+    "playwright": {
+      "type": "stdio",
+      "command": "C:\\Users\\srika\\AppData\\Roaming\\npm\\playwright-mcp.cmd",
+      "args": ["--isolated"]
+    },
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+- generic [ref=e2]:
+  - navigation [ref=e34]:
+    - generic [ref=e36]:
+      - link [ref=e37] [cursor=pointer]:
+        - /url: /
+        - img "website logo" [ref=e38]
+      - list [ref=e39]:
+        - listitem [ref=e40]:
+          - link "Home" [ref=e41] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e42]:
+          - link "Products" [ref=e43] [cursor=pointer]:
+            - /url: /products
+        - listitem [ref=e44]:
+          - link "Cart" [ref=e45] [cursor=pointer]:
+            - /url: /cart
+      - button "Logout" [ref=e46] [cursor=pointer]
+  - generic [ref=e47]:
+    - generic [ref=e48]:
+      - heading "Exclusive Prime Deals" [level=1] [ref=e49]
+      - list [ref=e50]:
+        - listitem [ref=e51]:
+          - link [ref=e52] [cursor=pointer]:
+            - /url: /products/1001
+            - img "product" [ref=e53]
+            - heading "Hair Dryer" [level=1] [ref=e54]
+            - paragraph [ref=e55]: by Phillips
+            - generic [ref=e56]:
+              - paragraph [ref=e57]: Rs 760/-
+              - generic [ref=e58]:
+                - paragraph [ref=e59]: "3.9"
+                - img "star" [ref=e60]
+        - listitem [ref=e61]:
+          - link [ref=e62] [cursor=pointer]:
+            - /url: /products/1002
+            - img "product" [ref=e63]
+            - heading "Minifigures" [level=1] [ref=e64]
+            - paragraph [ref=e65]: by LEGO
+            - generic [ref=e66]:
+              - paragraph [ref=e67]: Rs 760/-
+              - generic [ref=e68]:
+                - paragraph [ref=e69]: "3.9"
+                - img "star" [ref=e70]
+        - listitem [ref=e71]:
+          - link [ref=e72] [cursor=pointer]:
+            - /url: /products/1003
+            - img "product" [ref=e73]
+            - heading "Lightweight Tripod" [level=1] [ref=e74]
+            - paragraph [ref=e75]: by LEGO
+            - generic [ref=e76]:
+              - paragraph [ref=e77]: Rs 760/-
+              - generic [ref=e78]:
+                - paragraph [ref=e79]: "3.9"
+                - img "star" [ref=e80]
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - searchbox "Search" [ref=e84]: Hair Dryer
+        - heading "Category" [level=1] [ref=e88]
+        - list [ref=e89]:
+          - listitem [ref=e90] [cursor=pointer]:
+            - paragraph [ref=e91]: Clothing
+          - listitem [ref=e92] [cursor=pointer]:
+            - paragraph [ref=e93]: Electronics
+          - listitem [ref=e94] [cursor=pointer]:
+            - paragraph [ref=e95]: Appliances
+          - listitem [ref=e96] [cursor=pointer]:
+            - paragraph [ref=e97]: Grocery
+          - listitem [ref=e98] [cursor=pointer]:
+            - paragraph [ref=e99]: Toys
+        - generic [ref=e100]:
+          - heading "Rating" [level=1] [ref=e101]
+          - list [ref=e102]:
+            - listitem [ref=e103] [cursor=pointer]:
+              - img "rating 4" [ref=e104]
+              - paragraph [ref=e105]: "& up"
+            - listitem [ref=e106] [cursor=pointer]:
+              - img "rating 3" [ref=e107]
+              - paragraph [ref=e108]: "& up"
+            - listitem [ref=e109] [cursor=pointer]:
+              - img "rating 2" [ref=e110]
+              - paragraph [ref=e111]: "& up"
+            - listitem [ref=e112] [cursor=pointer]:
+              - img "rating 1" [ref=e113]
+              - paragraph [ref=e114]: "& up"
+        - button "Clear Filters" [ref=e115] [cursor=pointer]
+      - generic [ref=e116]:
+        - img "no products" [ref=e665]
+        - heading "No Products Found" [level=1] [ref=e666]
+        - paragraph [ref=e667]: We could not find any products. Try other filters.

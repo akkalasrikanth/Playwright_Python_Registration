@@ -1,0 +1,13 @@
+- generic [ref=e3]:
+  - img "website login" [ref=e4]
+  - generic [ref=e5]:
+    - img "website logo" [ref=e6]
+    - generic [ref=e7]:
+      - generic [ref=e8]: USERNAME
+      - textbox "USERNAME" [ref=e9]:
+        - /placeholder: Username
+    - generic [ref=e10]:
+      - generic [ref=e11]: PASSWORD
+      - textbox "PASSWORD" [ref=e12]:
+        - /placeholder: Password
+    - button "Login" [ref=e13] [cursor=pointer]

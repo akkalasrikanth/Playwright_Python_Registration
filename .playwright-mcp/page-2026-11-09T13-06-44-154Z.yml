@@ -1,0 +1,25 @@
+- generic [ref=e2]:
+  - navigation [ref=e14]:
+    - generic [ref=e16]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img "website logo" [ref=e18]
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link "Home" [ref=e21] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e22]:
+          - link "Products" [ref=e23] [cursor=pointer]:
+            - /url: /products
+        - listitem [ref=e24]:
+          - link "Cart" [ref=e25] [cursor=pointer]:
+            - /url: /cart
+      - button "Logout" [ref=e26] [cursor=pointer]
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - heading "Clothes That Get YOU Noticed" [level=1] [ref=e29]
+      - paragraph [ref=e30]: Fashion is part of the daily air and it does not quite help that it changes all the time. Clothes have always been a marker of the era and we are in a revolution. Your fashion makes you been seen and heard that way you are. So, celebrate the seasons new and exciting fashion in your own way.
+      - link [ref=e31] [cursor=pointer]:
+        - /url: /products
+        - button "Shop Now" [ref=e32]
+    - img "clothes that get you noticed" [ref=e33]

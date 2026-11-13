@@ -1,0 +1,688 @@
+- generic [ref=e2]:
+  - navigation [ref=e34]:
+    - generic [ref=e36]:
+      - link [ref=e37] [cursor=pointer]:
+        - /url: /
+        - img "website logo" [ref=e38]
+      - list [ref=e39]:
+        - listitem [ref=e40]:
+          - link "Home" [ref=e41] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e42]:
+          - link "Products" [ref=e43] [cursor=pointer]:
+            - /url: /products
+        - listitem [ref=e44]:
+          - link "Cart" [ref=e45] [cursor=pointer]:
+            - /url: /cart
+      - button "Logout" [ref=e46] [cursor=pointer]
+  - generic [ref=e47]:
+    - generic [ref=e48]:
+      - heading "Exclusive Prime Deals" [level=1] [ref=e49]
+      - list [ref=e50]:
+        - listitem [ref=e51]:
+          - link [ref=e52] [cursor=pointer]:
+            - /url: /products/1001
+            - img "product" [ref=e53]
+            - heading "Hair Dryer" [level=1] [ref=e54]
+            - paragraph [ref=e55]: by Phillips
+            - generic [ref=e56]:
+              - paragraph [ref=e57]: Rs 760/-
+              - generic [ref=e58]:
+                - paragraph [ref=e59]: "3.9"
+                - img "star" [ref=e60]
+        - listitem [ref=e61]:
+          - link [ref=e62] [cursor=pointer]:
+            - /url: /products/1002
+            - img "product" [ref=e63]
+            - heading "Minifigures" [level=1] [ref=e64]
+            - paragraph [ref=e65]: by LEGO
+            - generic [ref=e66]:
+              - paragraph [ref=e67]: Rs 760/-
+              - generic [ref=e68]:
+                - paragraph [ref=e69]: "3.9"
+                - img "star" [ref=e70]
+        - listitem [ref=e71]:
+          - link [ref=e72] [cursor=pointer]:
+            - /url: /products/1003
+            - img "product" [ref=e73]
+            - heading "Lightweight Tripod" [level=1] [ref=e74]
+            - paragraph [ref=e75]: by LEGO
+            - generic [ref=e76]:
+              - paragraph [ref=e77]: Rs 760/-
+              - generic [ref=e78]:
+                - paragraph [ref=e79]: "3.9"
+                - img "star" [ref=e80]
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - searchbox "Search" [ref=e84]
+        - heading "Category" [level=1] [ref=e88]
+        - list [ref=e89]:
+          - listitem [ref=e90] [cursor=pointer]:
+            - paragraph [ref=e91]: Clothing
+          - listitem [ref=e92] [cursor=pointer]:
+            - paragraph [ref=e93]: Electronics
+          - listitem [ref=e94] [cursor=pointer]:
+            - paragraph [ref=e95]: Appliances
+          - listitem [ref=e96] [cursor=pointer]:
+            - paragraph [ref=e97]: Grocery
+          - listitem [ref=e98] [cursor=pointer]:
+            - paragraph [ref=e99]: Toys
+        - generic [ref=e100]:
+          - heading "Rating" [level=1] [ref=e101]
+          - list [ref=e102]:
+            - listitem [ref=e103] [cursor=pointer]:
+              - img "rating 4" [ref=e104]
+              - paragraph [ref=e105]: "& up"
+            - listitem [ref=e106] [cursor=pointer]:
+              - img "rating 3" [ref=e107]
+              - paragraph [ref=e108]: "& up"
+            - listitem [ref=e109] [cursor=pointer]:
+              - img "rating 2" [ref=e110]
+              - paragraph [ref=e111]: "& up"
+            - listitem [ref=e112] [cursor=pointer]:
+              - img "rating 1" [ref=e113]
+              - paragraph [ref=e114]: "& up"
+        - button "Clear Filters" [active] [ref=e115] [cursor=pointer]
+      - generic [ref=e116]:
+        - generic [ref=e2097]:
+          - heading "All Products" [level=1] [ref=e2098]
+          - generic [ref=e2099]:
+            - paragraph [ref=e2102]: Sort by
+            - combobox [ref=e2103] [cursor=pointer]:
+              - option "Price (High-Low)"
+              - option "Price (Low-High)" [selected]
+        - list [ref=e2104]:
+          - listitem [ref=e2105]:
+            - link [ref=e2106] [cursor=pointer]:
+              - /url: /products/39
+              - img "product" [ref=e2107]
+              - heading "Fresh Produce Green Chilli" [level=1] [ref=e2108]
+              - paragraph [ref=e2109]: by Amazon
+              - generic [ref=e2110]:
+                - paragraph [ref=e2111]: Rs 30/-
+                - generic [ref=e2112]:
+                  - paragraph [ref=e2113]: "4.2"
+                  - img "star" [ref=e2114]
+          - listitem [ref=e2115]:
+            - link [ref=e2116] [cursor=pointer]:
+              - /url: /products/41
+              - img "product" [ref=e2117]
+              - heading "Fresh Lemon, 100g" [level=1] [ref=e2118]
+              - paragraph [ref=e2119]: by Amazon
+              - generic [ref=e2120]:
+                - paragraph [ref=e2121]: Rs 50/-
+                - generic [ref=e2122]:
+                  - paragraph [ref=e2123]: "4.5"
+                  - img "star" [ref=e2124]
+          - listitem [ref=e2125]:
+            - link [ref=e2126] [cursor=pointer]:
+              - /url: /products/36
+              - img "product" [ref=e2127]
+              - heading "Eggs" [level=1] [ref=e2128]
+              - paragraph [ref=e2129]: by Naturoz
+              - generic [ref=e2130]:
+                - paragraph [ref=e2131]: Rs 60/-
+                - generic [ref=e2132]:
+                  - paragraph [ref=e2133]: "3.6"
+                  - img "star" [ref=e2134]
+          - listitem [ref=e2135]:
+            - link [ref=e2136] [cursor=pointer]:
+              - /url: /products/38
+              - img "product" [ref=e2137]
+              - heading "Flour Unbleached" [level=1] [ref=e2138]
+              - paragraph [ref=e2139]: by TWF Store
+              - generic [ref=e2140]:
+                - paragraph [ref=e2141]: Rs 200/-
+                - generic [ref=e2142]:
+                  - paragraph [ref=e2143]: "4.3"
+                  - img "star" [ref=e2144]
+          - listitem [ref=e2145]:
+            - link [ref=e2146] [cursor=pointer]:
+              - /url: /products/40
+              - img "product" [ref=e2147]
+              - heading "Maroon Kumkum" [level=1] [ref=e2148]
+              - paragraph [ref=e2149]: by Amazon
+              - generic [ref=e2150]:
+                - paragraph [ref=e2151]: Rs 200/-
+                - generic [ref=e2152]:
+                  - paragraph [ref=e2153]: "3.9"
+                  - img "star" [ref=e2154]
+          - listitem [ref=e2155]:
+            - link [ref=e2156] [cursor=pointer]:
+              - /url: /products/43
+              - img "product" [ref=e2157]
+              - heading "Basmati Rice" [level=1] [ref=e2158]
+              - paragraph [ref=e2159]: by Fortune
+              - generic [ref=e2160]:
+                - paragraph [ref=e2161]: Rs 244/-
+                - generic [ref=e2162]:
+                  - paragraph [ref=e2163]: "3.6"
+                  - img "star" [ref=e2164]
+          - listitem [ref=e2165]:
+            - link [ref=e2166] [cursor=pointer]:
+              - /url: /products/44
+              - img "product" [ref=e2167]
+              - heading "Crystal Sugar" [level=1] [ref=e2168]
+              - paragraph [ref=e2169]: by NatureVit
+              - generic [ref=e2170]:
+                - paragraph [ref=e2171]: Rs 278/-
+                - generic [ref=e2172]:
+                  - paragraph [ref=e2173]: "3.6"
+                  - img "star" [ref=e2174]
+          - listitem [ref=e2175]:
+            - link [ref=e2176] [cursor=pointer]:
+              - /url: /products/1
+              - img "product" [ref=e2177]
+              - heading "Wide Bowknot Hat" [level=1] [ref=e2178]
+              - paragraph [ref=e2179]: by MAJIK
+              - generic [ref=e2180]:
+                - paragraph [ref=e2181]: Rs 288/-
+                - generic [ref=e2182]:
+                  - paragraph [ref=e2183]: "3.6"
+                  - img "star" [ref=e2184]
+          - listitem [ref=e2185]:
+            - link [ref=e2186] [cursor=pointer]:
+              - /url: /products/50
+              - img "product" [ref=e2187]
+              - heading "Bot Robot Toy" [level=1] [ref=e2188]
+              - paragraph [ref=e2189]: by WireScorts
+              - generic [ref=e2190]:
+                - paragraph [ref=e2191]: Rs 355/-
+                - generic [ref=e2192]:
+                  - paragraph [ref=e2193]: "3.8"
+                  - img "star" [ref=e2194]
+          - listitem [ref=e2195]:
+            - link [ref=e2196] [cursor=pointer]:
+              - /url: /products/28
+              - img "product" [ref=e2197]
+              - heading "Tripod Stand" [level=1] [ref=e2198]
+              - paragraph [ref=e2199]: by Sketchfab
+              - generic [ref=e2200]:
+                - paragraph [ref=e2201]: Rs 390/-
+                - generic [ref=e2202]:
+                  - paragraph [ref=e2203]: "4.2"
+                  - img "star" [ref=e2204]
+          - listitem [ref=e2205]:
+            - link [ref=e2206] [cursor=pointer]:
+              - /url: /products/2
+              - img "product" [ref=e2207]
+              - heading "Plain Round Neck T-shirt" [level=1] [ref=e2208]
+              - paragraph [ref=e2209]: by Huetrap
+              - generic [ref=e2210]:
+                - paragraph [ref=e2211]: Rs 395/-
+                - generic [ref=e2212]:
+                  - paragraph [ref=e2213]: "4.1"
+                  - img "star" [ref=e2214]
+          - listitem [ref=e2215]:
+            - link [ref=e2216] [cursor=pointer]:
+              - /url: /products/29
+              - img "product" [ref=e2217]
+              - heading "Beard Trimmer" [level=1] [ref=e2218]
+              - paragraph [ref=e2219]: by Nova
+              - generic [ref=e2220]:
+                - paragraph [ref=e2221]: Rs 398/-
+                - generic [ref=e2222]:
+                  - paragraph [ref=e2223]: "4.5"
+                  - img "star" [ref=e2224]
+          - listitem [ref=e2225]:
+            - link [ref=e2226] [cursor=pointer]:
+              - /url: /products/27
+              - img "product" [ref=e2227]
+              - heading "Aluminium 4 Cup Tea Kettle" [level=1] [ref=e2228]
+              - paragraph [ref=e2229]: by Kitchen Expert
+              - generic [ref=e2230]:
+                - paragraph [ref=e2231]: Rs 399/-
+                - generic [ref=e2232]:
+                  - paragraph [ref=e2233]: "4.3"
+                  - img "star" [ref=e2234]
+          - listitem [ref=e2235]:
+            - link [ref=e2236] [cursor=pointer]:
+              - /url: /products/10
+              - img "product" [ref=e2237]
+              - heading "Polyester Saree" [level=1] [ref=e2238]
+              - paragraph [ref=e2239]: by Ahalyaa
+              - generic [ref=e2240]:
+                - paragraph [ref=e2241]: Rs 419/-
+                - generic [ref=e2242]:
+                  - paragraph [ref=e2243]: "3.8"
+                  - img "star" [ref=e2244]
+          - listitem [ref=e2245]:
+            - link [ref=e2246] [cursor=pointer]:
+              - /url: /products/54
+              - img "product" [ref=e2247]
+              - heading "Nexa Yellow Car" [level=1] [ref=e2248]
+              - paragraph [ref=e2249]: by Quinergys
+              - generic [ref=e2250]:
+                - paragraph [ref=e2251]: Rs 490/-
+                - generic [ref=e2252]:
+                  - paragraph [ref=e2253]: "4.1"
+                  - img "star" [ref=e2254]
+          - listitem [ref=e2255]:
+            - link [ref=e2256] [cursor=pointer]:
+              - /url: /products/3
+              - img "product" [ref=e2257]
+              - heading "Cotton Hoodie" [level=1] [ref=e2258]
+              - paragraph [ref=e2259]: by Scott International
+              - generic [ref=e2260]:
+                - paragraph [ref=e2261]: Rs 498/-
+                - generic [ref=e2262]:
+                  - paragraph [ref=e2263]: "3.8"
+                  - img "star" [ref=e2264]
+          - listitem [ref=e2265]:
+            - link [ref=e2266] [cursor=pointer]:
+              - /url: /products/51
+              - img "product" [ref=e2267]
+              - heading "Kids Toy Train" [level=1] [ref=e2268]
+              - paragraph [ref=e2269]: by FIONA
+              - generic [ref=e2270]:
+                - paragraph [ref=e2271]: Rs 599/-
+                - generic [ref=e2272]:
+                  - paragraph [ref=e2273]: "4.1"
+                  - img "star" [ref=e2274]
+          - listitem [ref=e2275]:
+            - link [ref=e2276] [cursor=pointer]:
+              - /url: /products/53
+              - img "product" [ref=e2277]
+              - heading "Honey Teddy Bear" [level=1] [ref=e2278]
+              - paragraph [ref=e2279]: by Honey
+              - generic [ref=e2280]:
+                - paragraph [ref=e2281]: Rs 599/-
+                - generic [ref=e2282]:
+                  - paragraph [ref=e2283]: "4.3"
+                  - img "star" [ref=e2284]
+          - listitem [ref=e2285]:
+            - link [ref=e2286] [cursor=pointer]:
+              - /url: /products/49
+              - img "product" [ref=e2287]
+              - heading "Knitted Rabbit" [level=1] [ref=e2288]
+              - paragraph [ref=e2289]: by Ira
+              - generic [ref=e2290]:
+                - paragraph [ref=e2291]: Rs 620/-
+                - generic [ref=e2292]:
+                  - paragraph [ref=e2293]: "4.4"
+                  - img "star" [ref=e2294]
+          - listitem [ref=e2295]:
+            - link [ref=e2296] [cursor=pointer]:
+              - /url: /products/46
+              - img "product" [ref=e2297]
+              - heading "Batman Batmobile" [level=1] [ref=e2298]
+              - paragraph [ref=e2299]: by Funskool
+              - generic [ref=e2300]:
+                - paragraph [ref=e2301]: Rs 745/-
+                - generic [ref=e2302]:
+                  - paragraph [ref=e2303]: "4.7"
+                  - img "star" [ref=e2304]
+          - listitem [ref=e2305]:
+            - link [ref=e2306] [cursor=pointer]:
+              - /url: /products/37
+              - img "product" [ref=e2307]
+              - heading "Chilli Extract Sauce" [level=1] [ref=e2308]
+              - paragraph [ref=e2309]: by Everin
+              - generic [ref=e2310]:
+                - paragraph [ref=e2311]: Rs 788/-
+                - generic [ref=e2312]:
+                  - paragraph [ref=e2313]: "4.1"
+                  - img "star" [ref=e2314]
+          - listitem [ref=e2315]:
+            - link [ref=e2316] [cursor=pointer]:
+              - /url: /products/6
+              - img "product" [ref=e2317]
+              - heading "Miss Chase Bodycon Dress" [level=1] [ref=e2318]
+              - paragraph [ref=e2319]: by LEVIS
+              - generic [ref=e2320]:
+                - paragraph [ref=e2321]: Rs 974/-
+                - generic [ref=e2322]:
+                  - paragraph [ref=e2323]: "3.8"
+                  - img "star" [ref=e2324]
+          - listitem [ref=e2325]:
+            - link [ref=e2326] [cursor=pointer]:
+              - /url: /products/13
+              - img "product" [ref=e2327]
+              - heading "Knit Cream Sweater" [level=1] [ref=e2328]
+              - paragraph [ref=e2329]: by MansiCollections
+              - generic [ref=e2330]:
+                - paragraph [ref=e2331]: Rs 996/-
+                - generic [ref=e2332]:
+                  - paragraph [ref=e2333]: "3.2"
+                  - img "star" [ref=e2334]
+          - listitem [ref=e2335]:
+            - link [ref=e2336] [cursor=pointer]:
+              - /url: /products/9
+              - img "product" [ref=e2337]
+              - heading "Animal Printed Shirt" [level=1] [ref=e2338]
+              - paragraph [ref=e2339]: by Mufti
+              - generic [ref=e2340]:
+                - paragraph [ref=e2341]: Rs 1017/-
+                - generic [ref=e2342]:
+                  - paragraph [ref=e2343]: "4"
+                  - img "star" [ref=e2344]
+          - listitem [ref=e2345]:
+            - link [ref=e2346] [cursor=pointer]:
+              - /url: /products/30
+              - img "product" [ref=e2347]
+              - heading "Nova SuperGroom Multi-kit" [level=1] [ref=e2348]
+              - paragraph [ref=e2349]: by Nova
+              - generic [ref=e2350]:
+                - paragraph [ref=e2351]: Rs 1199/-
+                - generic [ref=e2352]:
+                  - paragraph [ref=e2353]: "4.4"
+                  - img "star" [ref=e2354]
+          - listitem [ref=e2355]:
+            - link [ref=e2356] [cursor=pointer]:
+              - /url: /products/45
+              - img "product" [ref=e2357]
+              - heading "Turmeric Powder" [level=1] [ref=e2358]
+              - paragraph [ref=e2359]: by Patanjali
+              - generic [ref=e2360]:
+                - paragraph [ref=e2361]: Rs 1234/-
+                - generic [ref=e2362]:
+                  - paragraph [ref=e2363]: "2.8"
+                  - img "star" [ref=e2364]
+          - listitem [ref=e2365]:
+            - link [ref=e2366] [cursor=pointer]:
+              - /url: /products/17
+              - img "product" [ref=e2367]
+              - heading "Handheld Full Body Massager" [level=1] [ref=e2368]
+              - paragraph [ref=e2369]: by AGARO REGAL
+              - generic [ref=e2370]:
+                - paragraph [ref=e2371]: Rs 1299/-
+                - generic [ref=e2372]:
+                  - paragraph [ref=e2373]: "4.3"
+                  - img "star" [ref=e2374]
+          - listitem [ref=e2375]:
+            - link [ref=e2376] [cursor=pointer]:
+              - /url: /products/47
+              - img "product" [ref=e2377]
+              - heading "Panda Baby Product" [level=1] [ref=e2378]
+              - paragraph [ref=e2379]: by Panda
+              - generic [ref=e2380]:
+                - paragraph [ref=e2381]: Rs 1399/-
+                - generic [ref=e2382]:
+                  - paragraph [ref=e2383]: "4.3"
+                  - img "star" [ref=e2384]
+          - listitem [ref=e2385]:
+            - link [ref=e2386] [cursor=pointer]:
+              - /url: /products/5
+              - img "product" [ref=e2387]
+              - heading "Slim Fit Jeans" [level=1] [ref=e2388]
+              - paragraph [ref=e2389]: by LEVIS
+              - generic [ref=e2390]:
+                - paragraph [ref=e2391]: Rs 1469/-
+                - generic [ref=e2392]:
+                  - paragraph [ref=e2393]: "3.1"
+                  - img "star" [ref=e2394]
+          - listitem [ref=e2395]:
+            - link [ref=e2396] [cursor=pointer]:
+              - /url: /products/52
+              - img "product" [ref=e2397]
+              - heading "Non-Toxic Robot Toys" [level=1] [ref=e2398]
+              - paragraph [ref=e2399]: by FunBlast
+              - generic [ref=e2400]:
+                - paragraph [ref=e2401]: Rs 1545/-
+                - generic [ref=e2402]:
+                  - paragraph [ref=e2403]: "3.3"
+                  - img "star" [ref=e2404]
+          - listitem [ref=e2405]:
+            - link [ref=e2406] [cursor=pointer]:
+              - /url: /products/26
+              - img "product" [ref=e2407]
+              - heading "Tea Kettle Pot" [level=1] [ref=e2408]
+              - paragraph [ref=e2409]: by Indian Art Villa
+              - generic [ref=e2410]:
+                - paragraph [ref=e2411]: Rs 1685/-
+                - generic [ref=e2412]:
+                  - paragraph [ref=e2413]: "3.8"
+                  - img "star" [ref=e2414]
+          - listitem [ref=e2415]:
+            - link [ref=e2416] [cursor=pointer]:
+              - /url: /products/19
+              - img "product" [ref=e2417]
+              - heading "Mixer Grinder" [level=1] [ref=e2418]
+              - paragraph [ref=e2419]: by Lifelong
+              - generic [ref=e2420]:
+                - paragraph [ref=e2421]: Rs 1699/-
+                - generic [ref=e2422]:
+                  - paragraph [ref=e2423]: "3.9"
+                  - img "star" [ref=e2424]
+          - listitem [ref=e2425]:
+            - link [ref=e2426] [cursor=pointer]:
+              - /url: /products/23
+              - img "product" [ref=e2427]
+              - heading "Dynamic Microphone" [level=1] [ref=e2428]
+              - paragraph [ref=e2429]: by JTS Store
+              - generic [ref=e2430]:
+                - paragraph [ref=e2431]: Rs 1699/-
+                - generic [ref=e2432]:
+                  - paragraph [ref=e2433]: "3.9"
+                  - img "star" [ref=e2434]
+          - listitem [ref=e2435]:
+            - link [ref=e2436] [cursor=pointer]:
+              - /url: /products/21
+              - img "product" [ref=e2437]
+              - heading "PS5 Controller Charger" [level=1] [ref=e2438]
+              - paragraph [ref=e2439]: by New World
+              - generic [ref=e2440]:
+                - paragraph [ref=e2441]: Rs 1749/-
+                - generic [ref=e2442]:
+                  - paragraph [ref=e2443]: "3.3"
+                  - img "star" [ref=e2444]
+          - listitem [ref=e2445]:
+            - link [ref=e2446] [cursor=pointer]:
+              - /url: /products/15
+              - img "product" [ref=e2447]
+              - heading "Embellished Maxi Dress" [level=1] [ref=e2448]
+              - paragraph [ref=e2449]: by STREET 9
+              - generic [ref=e2450]:
+                - paragraph [ref=e2451]: Rs 1799/-
+                - generic [ref=e2452]:
+                  - paragraph [ref=e2453]: "3.2"
+                  - img "star" [ref=e2454]
+          - listitem [ref=e2455]:
+            - link [ref=e2456] [cursor=pointer]:
+              - /url: /products/25
+              - img "product" [ref=e2457]
+              - heading "Analog Men's Watch" [level=1] [ref=e2458]
+              - paragraph [ref=e2459]: by Fastrack
+              - generic [ref=e2460]:
+                - paragraph [ref=e2461]: Rs 1850/-
+                - generic [ref=e2462]:
+                  - paragraph [ref=e2463]: "4.2"
+                  - img "star" [ref=e2464]
+          - listitem [ref=e2465]:
+            - link [ref=e2466] [cursor=pointer]:
+              - /url: /products/7
+              - img "product" [ref=e2467]
+              - heading "Zari Design Kurta" [level=1] [ref=e2468]
+              - paragraph [ref=e2469]: by Libas
+              - generic [ref=e2470]:
+                - paragraph [ref=e2471]: Rs 1869/-
+                - generic [ref=e2472]:
+                  - paragraph [ref=e2473]: "4.4"
+                  - img "star" [ref=e2474]
+          - listitem [ref=e2475]:
+            - link [ref=e2476] [cursor=pointer]:
+              - /url: /products/20
+              - img "product" [ref=e2477]
+              - heading "SilverBullet Mixer Grinder" [level=1] [ref=e2478]
+              - paragraph [ref=e2479]: by COOKWELL
+              - generic [ref=e2480]:
+                - paragraph [ref=e2481]: Rs 1899/-
+                - generic [ref=e2482]:
+                  - paragraph [ref=e2483]: "4.1"
+                  - img "star" [ref=e2484]
+          - listitem [ref=e2485]:
+            - link [ref=e2486] [cursor=pointer]:
+              - /url: /products/14
+              - img "product" [ref=e2487]
+              - heading "Sheer Anarkali" [level=1] [ref=e2488]
+              - paragraph [ref=e2489]: by Saadgi
+              - generic [ref=e2490]:
+                - paragraph [ref=e2491]: Rs 2172/-
+                - generic [ref=e2492]:
+                  - paragraph [ref=e2493]: "3.2"
+                  - img "star" [ref=e2494]
+          - listitem [ref=e2495]:
+            - link [ref=e2496] [cursor=pointer]:
+              - /url: /products/4
+              - img "product" [ref=e2497]
+              - heading "Men's Waistcoat" [level=1] [ref=e2498]
+              - paragraph [ref=e2499]: by LEVIS
+              - generic [ref=e2500]:
+                - paragraph [ref=e2501]: Rs 2500/-
+                - generic [ref=e2502]:
+                  - paragraph [ref=e2503]: "4.3"
+                  - img "star" [ref=e2504]
+          - listitem [ref=e2505]:
+            - link [ref=e2506] [cursor=pointer]:
+              - /url: /products/8
+              - img "product" [ref=e2507]
+              - heading "Slim Fit Blazer" [level=1] [ref=e2508]
+              - paragraph [ref=e2509]: by LEVIS
+              - generic [ref=e2510]:
+                - paragraph [ref=e2511]: Rs 2599/-
+                - generic [ref=e2512]:
+                  - paragraph [ref=e2513]: "4.2"
+                  - img "star" [ref=e2514]
+          - listitem [ref=e2515]:
+            - link [ref=e2516] [cursor=pointer]:
+              - /url: /products/11
+              - img "product" [ref=e2517]
+              - heading "Warm Up Jacket" [level=1] [ref=e2518]
+              - paragraph [ref=e2519]: by Monte Carlo
+              - generic [ref=e2520]:
+                - paragraph [ref=e2521]: Rs 2796/-
+                - generic [ref=e2522]:
+                  - paragraph [ref=e2523]: "4.4"
+                  - img "star" [ref=e2524]
+          - listitem [ref=e2525]:
+            - link [ref=e2526] [cursor=pointer]:
+              - /url: /products/12
+              - img "product" [ref=e2527]
+              - heading "Wrap Dress" [level=1] [ref=e2528]
+              - paragraph [ref=e2529]: by Vero Moda
+              - generic [ref=e2530]:
+                - paragraph [ref=e2531]: Rs 3039/-
+                - generic [ref=e2532]:
+                  - paragraph [ref=e2533]: "3.2"
+                  - img "star" [ref=e2534]
+          - listitem [ref=e2535]:
+            - link [ref=e2536] [cursor=pointer]:
+              - /url: /products/42
+              - img "product" [ref=e2537]
+              - heading "Virgin Avocado Oil" [level=1] [ref=e2538]
+              - paragraph [ref=e2539]: by ProV
+              - generic [ref=e2540]:
+                - paragraph [ref=e2541]: Rs 4144/-
+                - generic [ref=e2542]:
+                  - paragraph [ref=e2543]: "4.4"
+                  - img "star" [ref=e2544]
+          - listitem [ref=e2545]:
+            - link [ref=e2546] [cursor=pointer]:
+              - /url: /products/22
+              - img "product" [ref=e2547]
+              - heading "Podcast Microphone" [level=1] [ref=e2548]
+              - paragraph [ref=e2549]: by MAONO
+              - generic [ref=e2550]:
+                - paragraph [ref=e2551]: Rs 5555/-
+                - generic [ref=e2552]:
+                  - paragraph [ref=e2553]: "4.4"
+                  - img "star" [ref=e2554]
+          - listitem [ref=e2555]:
+            - link [ref=e2556] [cursor=pointer]:
+              - /url: /products/32
+              - img "product" [ref=e2557]
+              - heading "Chronograph black Watch" [level=1] [ref=e2558]
+              - paragraph [ref=e2559]: by Fossil
+              - generic [ref=e2560]:
+                - paragraph [ref=e2561]: Rs 6395/-
+                - generic [ref=e2562]:
+                  - paragraph [ref=e2563]: "3.8"
+                  - img "star" [ref=e2564]
+          - listitem [ref=e2565]:
+            - link [ref=e2566] [cursor=pointer]:
+              - /url: /products/31
+              - img "product" [ref=e2567]
+              - heading "Privateer Quartz Watch" [level=1] [ref=e2568]
+              - paragraph [ref=e2569]: by Fossil
+              - generic [ref=e2570]:
+                - paragraph [ref=e2571]: Rs 8122/-
+                - generic [ref=e2572]:
+                  - paragraph [ref=e2573]: "4.4"
+                  - img "star" [ref=e2574]
+          - listitem [ref=e2575]:
+            - link [ref=e2576] [cursor=pointer]:
+              - /url: /products/48
+              - img "product" [ref=e2577]
+              - heading "Monsters Charm Toy" [level=1] [ref=e2578]
+              - paragraph [ref=e2579]: by Trendytap
+              - generic [ref=e2580]:
+                - paragraph [ref=e2581]: Rs 8600/-
+                - generic [ref=e2582]:
+                  - paragraph [ref=e2583]: "4.2"
+                  - img "star" [ref=e2584]
+          - listitem [ref=e2585]:
+            - link [ref=e2586] [cursor=pointer]:
+              - /url: /products/34
+              - img "product" [ref=e2587]
+              - heading "Neutra Analog Men's Watch" [level=1] [ref=e2588]
+              - paragraph [ref=e2589]: by Fossil
+              - generic [ref=e2590]:
+                - paragraph [ref=e2591]: Rs 10995/-
+                - generic [ref=e2592]:
+                  - paragraph [ref=e2593]: "4.1"
+                  - img "star" [ref=e2594]
+          - listitem [ref=e2595]:
+            - link [ref=e2596] [cursor=pointer]:
+              - /url: /products/35
+              - img "product" [ref=e2597]
+              - heading "Maritime Men's Watch" [level=1] [ref=e2598]
+              - paragraph [ref=e2599]: by Titan
+              - generic [ref=e2600]:
+                - paragraph [ref=e2601]: Rs 11999/-
+                - generic [ref=e2602]:
+                  - paragraph [ref=e2603]: "4.3"
+                  - img "star" [ref=e2604]
+          - listitem [ref=e2605]:
+            - link [ref=e2606] [cursor=pointer]:
+              - /url: /products/18
+              - img "product" [ref=e2607]
+              - heading "True Wireless Earbuds" [level=1] [ref=e2608]
+              - paragraph [ref=e2609]: by LG
+              - generic [ref=e2610]:
+                - paragraph [ref=e2611]: Rs 13499/-
+                - generic [ref=e2612]:
+                  - paragraph [ref=e2613]: "4.4"
+                  - img "star" [ref=e2614]
+          - listitem [ref=e2615]:
+            - link [ref=e2616] [cursor=pointer]:
+              - /url: /products/33
+              - img "product" [ref=e2617]
+              - heading "Collider Black Dial Men's Watch" [level=1] [ref=e2618]
+              - paragraph [ref=e2619]: by Fossil
+              - generic [ref=e2620]:
+                - paragraph [ref=e2621]: Rs 14995/-
+                - generic [ref=e2622]:
+                  - paragraph [ref=e2623]: "4.3"
+                  - img "star" [ref=e2624]
+          - listitem [ref=e2625]:
+            - link [ref=e2626] [cursor=pointer]:
+              - /url: /products/24
+              - img "product" [ref=e2627]
+              - heading "Front Load Machine" [level=1] [ref=e2628]
+              - paragraph [ref=e2629]: by Samsung
+              - generic [ref=e2630]:
+                - paragraph [ref=e2631]: Rs 22490/-
+                - generic [ref=e2632]:
+                  - paragraph [ref=e2633]: "4.5"
+                  - img "star" [ref=e2634]
+          - listitem [ref=e2635]:
+            - link [ref=e2636] [cursor=pointer]:
+              - /url: /products/16
+              - img "product" [ref=e2637]
+              - heading "Embroidered Net Gown" [level=1] [ref=e2638]
+              - paragraph [ref=e2639]: by Manyavar
+              - generic [ref=e2640]:
+                - paragraph [ref=e2641]: Rs 62990/-
+                - generic [ref=e2642]:
+                  - paragraph [ref=e2643]: "3.2"
+                  - img "star" [ref=e2644]
